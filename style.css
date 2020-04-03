@@ -1,0 +1,47 @@
+@font-face{
+    src: url(fonts/Cinzel-Bold.ttf);
+    font-family: Cinzel-Bold;
+
+    src: url(fonts/Cinzel-Black.ttf);
+    font-family: Cinzel-Black;
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Website Background */
+    background: url(img/IMG_0050.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    font-family: Cinzel-Black;
+    font-size:3em;
+    color: lightgrey;
+    font-weight: bolder;
+}
+
+
+.btn {
+    font-weight: bolder;
+    border-radius: 300px;
+    border-color: lightgrey;
+    text-transform:uppercase;
+}
+
+.btn-secondary:hover{
+    transform:scale(1.03);
+    transition: 250ms linear;
+}
+
+.btn-xl{
+    padding:1rem 2rem;
+
+}
